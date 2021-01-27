@@ -174,3 +174,40 @@ button:hover {
     border: 1px solid #dadce0;
     color: #202124;
 }
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: #f2f2f2;
+    border-top: 1px solid #dadce0;
+}
+
+.footer-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+}
+
+.footer-left {
+    margin-right: 30px;
+}
+
+footer a {
+    color: #70757a;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    padding-left: 27px;
+}
+
+@media (max-width: 650px) {
+    footer {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+  }
