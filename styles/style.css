@@ -24,6 +24,63 @@ footer {
     flex: 0 1 auto;
 }
 
+/* Navigation bar */
+
+#navigation-bar {
+    padding: 15px;
+    list-style-type: none;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navigation-bar-items {
+    font: 13px arial, sans-serif;
+    margin-left: 17px;
+}
+
+#google-apps-logo {
+    display: block;
+    background-image: url("https://image.flaticon.com/icons/svg/54/54404.svg");
+    width: 18px;
+    height: 18px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+
+#google-apps-logo:hover {
+    opacity: 100%;
+}
+
+#navigation-bar-profile {
+    display: block;
+    background-image: url("https://avatars3.githubusercontent.com/u/17303783?s=460&u=96ab6db157cbdfd2fd630aa8bf3e3fdbcfc6382c&v=4");
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,0.87);
+}
+
+a:hover 
+{
+     text-decoration:underline; 
+     cursor:pointer;  
+}
+
 /* Search Container */
 
 #google-search {
@@ -31,7 +88,7 @@ footer {
     flex-direction: column;
     max-width: 582px;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 135px;
 }
 
 /* Google Logo */
